@@ -31,7 +31,7 @@ spec:
         - name: PYTHONUNBUFFERED
           valueFrom:
             configMapKeyRef:
-              name: testConfig
+              name: test-config
               key: PYTHONUNBUFFERED
         - name: SECRET_KEY
           valueFrom:
