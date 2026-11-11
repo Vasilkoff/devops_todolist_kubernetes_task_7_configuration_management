@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: testConfig
+  namespace: todoapp
+data:
+  PYTHONUNBUFFERED: "3.2"
